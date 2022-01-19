@@ -96,7 +96,7 @@ plot_precision_recall_curve(classifier, X_test, y_test)
 plt.title('Precision recall curve')
 
 # Plot the model tree
-plt.figure(figsize = (30, 30))
+plt.rcParams['figure.figsize'] = [50,50]
 plot_tree(classifier)
 
 importantFeatures = classifier.feature_importances_
