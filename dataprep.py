@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 import math
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 
@@ -11,8 +10,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Configure visualisations
-%matplotlib inline
-sns.set_style('white')
+# %matplotlib inline
+# sns.set_style('white')
 
 # Importing the dataset
 dataset = pd.read_csv('data.csv')
