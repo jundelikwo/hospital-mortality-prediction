@@ -21,7 +21,7 @@ This project is an implementation of the kaggle project found at [https://www.ka
   
 
 ## Models
-TheRE is one classification model in this project
+There are two models in this project
 ### 1. `xgboostmodel.py`
 This uses the **XGBClassifier**. A summary of the performance of this model is given below
 |  |precision|recall|f1-score|support|
@@ -31,3 +31,13 @@ This uses the **XGBClassifier**. A summary of the performance of this model is g
 |**accuracy**|||0.95|408
 |**macro avg**|0.95|0.95|0.95|408
 |**weighted avg**|0.95|0.95|0.95|408
+
+### 2. `ann.py`
+This uses an **artifical neural network**. A summary of the performance of this model is given below
+|  |precision|recall|f1-score|support|
+|--|--|--|--|--|
+|0 (Alive)|0.98|0.89|0.94|204
+|1 (Dead)|0.90|0.99|0.94|204
+|**accuracy**|||0.94|408
+|**macro avg**|0.94|0.94|0.94|408
+|**weighted avg**|0.94|0.94|0.94|408
